@@ -2,24 +2,6 @@
 #include <stdlib.h> 
 #include "fibonacci.h"
 
-int main(void)
-{
-  int i = 0;
-  unsigned int *fibonacci = fib_jono(15);
-  fib_jono(15);
-  
-
-  for(i = 0; i < 15; ++i)
-  {
-    printf(" %u", fibonacci[i]);
-  }
-  printf("\n");
-  free(fibonacci);
-  
-  return 0;
-}
-
-
 unsigned int * fib_jono(unsigned int n){
   int i = 2;
 
